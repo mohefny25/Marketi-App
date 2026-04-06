@@ -1,8 +1,9 @@
 import 'package:flutter/cupertino.dart';
 import 'package:marketi_app/features/auth/view/signin_view.dart';
-import 'package:marketi_app/features/auth/widgets/congratulation.dart';
-import 'package:marketi_app/features/auth/widgets/custom_button.dart';
-import 'package:marketi_app/features/auth/widgets/custom_widgets.dart';
+import 'package:marketi_app/features/congratulation/widgets/congratulation.dart';
+
+import '../../widgets/custom_button.dart';
+import '../../widgets/custom_widgets.dart';
 
 class CongratulationView extends StatelessWidget {
   const CongratulationView({super.key});

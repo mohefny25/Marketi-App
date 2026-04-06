@@ -4,8 +4,8 @@ import 'package:jwt_decoder/jwt_decoder.dart';
 import 'package:marketi_app/api/api_consumer.dart';
 import 'package:marketi_app/api/end_points.dart';
 import 'package:marketi_app/core/errors/exceptions.dart';
-import 'package:marketi_app/models/signin_model.dart';
-import 'package:marketi_app/models/signup_model.dart';
+import 'package:marketi_app/features/auth/data/signin_model.dart';
+import 'package:marketi_app/features/auth/data/signup_model.dart';
 import 'package:marketi_app/shared/cache_helper.dart';
 
 class UserRepository{

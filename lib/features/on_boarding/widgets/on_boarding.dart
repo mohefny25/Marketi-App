@@ -2,11 +2,12 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:gap/gap.dart';
 import 'package:marketi_app/features/auth/view/signin_view.dart';
-import 'package:marketi_app/features/auth/widgets/custom_button.dart';
-import 'package:marketi_app/features/auth/widgets/custom_widgets.dart';
+
 
 import '../../../core/constants/app_colors.dart';
 import '../../../shared/cache_helper.dart';
+import '../../../widgets/custom_button.dart';
+import '../../../widgets/custom_widgets.dart';
 
 class CustomOnBoarding extends StatelessWidget {
    CustomOnBoarding({super.key,
@@ -60,6 +61,7 @@ class CustomOnBoarding extends StatelessWidget {
                     child: Text("skip"),
 
                     onPressed: () async {
+                      //
                       await CacheHelper.saveData( key: 'hasSeenOnBoarding', value: true);
                       navigateToAndReplace(context, SigninView());
                     }),

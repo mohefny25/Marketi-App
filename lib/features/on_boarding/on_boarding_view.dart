@@ -1,10 +1,11 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:marketi_app/features/on_boarding/widgets/on_boarding.dart';
-import 'package:marketi_app/features/auth/widgets/custom_widgets.dart';
-import 'package:marketi_app/screens/home_view.dart';
+import 'package:marketi_app/features/home/home_view.dart';
 import 'package:marketi_app/shared/cache_helper.dart';
 import 'package:shared_preferences/shared_preferences.dart';
+
+import '../../widgets/custom_widgets.dart';
 
 class OnBoardingView extends StatefulWidget {
    OnBoardingView({super.key});

@@ -4,9 +4,8 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:gap/gap.dart';
 import 'package:marketi_app/cubit/user_cubit.dart';
 
-import '../../../core/constants/app_colors.dart';
-import '../../../screens/forgot_password_by_email.dart';
-import 'custom_widgets.dart';
+import '../../../../../core/constants/app_colors.dart';
+import '../../../widgets/custom_widgets.dart';
 
 class VerifyCode extends StatelessWidget {
    VerifyCode({super.key,

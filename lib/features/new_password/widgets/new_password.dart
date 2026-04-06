@@ -3,10 +3,9 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:gap/gap.dart';
 import 'package:marketi_app/cubit/user_cubit.dart';
-import 'package:marketi_app/features/auth/widgets/custom_widgets.dart';
-import 'package:marketi_app/screens/forgot_password_by_email.dart';
 
-import '../../../core/constants/app_colors.dart';
+
+import '../../../../../core/constants/app_colors.dart';
 
 class NewPassword extends StatelessWidget {
   NewPassword({

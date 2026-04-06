@@ -6,11 +6,12 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:marketi_app/api/dio_consumer.dart';
 import 'package:marketi_app/cubit/user_cubit.dart';
 import 'package:marketi_app/features/auth/view/signin_view.dart';
-import 'package:marketi_app/repositories/user_repository.dart';
+import 'package:marketi_app/features/auth/data/user_repository.dart';
 import 'package:marketi_app/features/home/home_view.dart';
 import 'package:marketi_app/features/on_boarding/on_boarding_view.dart';
 import 'package:marketi_app/features/splash/splash_view.dart';
 import 'package:marketi_app/shared/cache_helper.dart';
+import 'package:marketi_app/shared/theme/theme_manger.dart';
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
@@ -35,15 +36,7 @@ class MyApp extends StatelessWidget {
         child: MaterialApp(
       
       
-        theme: ThemeData(
-      
-          scaffoldBackgroundColor: Colors.white,
-              appBarTheme:AppBarTheme(
-                toolbarHeight: height*0.0741,
-      
-                color: Colors.white
-              )
-        ),
+         theme: ThemeManger.lightTheme(),
         title: 'Flutter Demo',
         debugShowCheckedModeBanner: false,
         home:signedIn?HomeView():

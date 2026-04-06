@@ -2,13 +2,13 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:gap/gap.dart';
 import 'package:marketi_app/cubit/user_cubit.dart';
-import 'package:marketi_app/features/auth/widgets/custom_button.dart';
-import 'package:marketi_app/features/auth/widgets/custom_text_form_field.dart';
-import 'package:marketi_app/features/auth/widgets/custom_widgets.dart';
-import 'package:marketi_app/features/auth/widgets/forgot_password.dart';
-import 'package:marketi_app/screens/verify_code_by_phone.dart';
+import 'package:marketi_app/features/forgot_password/widgets/forgot_password.dart';
+import 'package:marketi_app/features/verify_code/verify_code_by_phone.dart';
 
-import '../core/constants/app_colors.dart';
+import '../../core/constants/app_colors.dart';
+import '../../widgets/custom_button.dart';
+import '../../widgets/custom_text_form_field.dart';
+import '../../widgets/custom_widgets.dart';
 
 class ForgotPasswordByPhoneView extends StatelessWidget {
    ForgotPasswordByPhoneView({super.key});

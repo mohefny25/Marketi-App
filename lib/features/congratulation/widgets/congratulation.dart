@@ -2,7 +2,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:gap/gap.dart';
 
-import '../../../core/constants/app_colors.dart';
+import '../../../../../core/constants/app_colors.dart';
 
 class Congratulation extends StatelessWidget {
    Congratulation({super.key,

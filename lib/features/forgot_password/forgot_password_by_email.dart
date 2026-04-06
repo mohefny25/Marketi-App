@@ -1,12 +1,14 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:marketi_app/features/auth/widgets/custom_widgets.dart';
-import 'package:marketi_app/screens/verify_code_by_email.dart';
+import 'package:marketi_app/features/forgot_password/widgets/forgot_password.dart';
+import 'package:marketi_app/features/verify_code/verify_code_by_email.dart';
 
-import '../cubit/user_cubit.dart';
-import '../features/auth/widgets/custom_button.dart';
-import '../features/auth/widgets/custom_text_form_field.dart';
-import '../features/auth/widgets/forgot_password.dart';
+import '../../cubit/user_cubit.dart';
+import '../../widgets/custom_button.dart';
+import '../../widgets/custom_text_form_field.dart';
+import '../../widgets/custom_widgets.dart';
+
+
 
 class ForgotPasswordByEmail extends StatelessWidget {
    ForgotPasswordByEmail({super.key});

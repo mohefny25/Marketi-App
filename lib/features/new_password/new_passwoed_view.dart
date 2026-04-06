@@ -1,11 +1,12 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:marketi_app/cubit/user_cubit.dart';
-import 'package:marketi_app/features/auth/widgets/custom_button.dart';
-import 'package:marketi_app/features/auth/widgets/custom_text_form_field.dart';
-import 'package:marketi_app/features/auth/widgets/custom_widgets.dart';
-import 'package:marketi_app/features/auth/widgets/new_password.dart';
-import 'package:marketi_app/screens/congratulation_view.dart';
+import 'package:marketi_app/features/congratulation/congratulation_view.dart';
+import 'package:marketi_app/features/new_password/widgets/new_password.dart';
+
+import '../../widgets/custom_button.dart';
+import '../../widgets/custom_text_form_field.dart';
+import '../../widgets/custom_widgets.dart';
 
 class NewPasswordView extends StatelessWidget {
   const NewPasswordView({super.key});

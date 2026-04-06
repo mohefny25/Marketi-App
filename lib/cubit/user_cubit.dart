@@ -4,7 +4,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:marketi_app/api/api_consumer.dart';
 import 'package:marketi_app/api/end_points.dart';
-import 'package:marketi_app/repositories/user_repository.dart';
+import 'package:marketi_app/features/auth/data/user_repository.dart';
 import 'package:meta/meta.dart';
 
 import '../shared/cache_helper.dart';

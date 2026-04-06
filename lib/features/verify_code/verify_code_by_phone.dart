@@ -1,11 +1,11 @@
 import 'package:flutter/cupertino.dart';
 import 'package:marketi_app/cubit/user_cubit.dart';
-import 'package:marketi_app/features/auth/widgets/custom_button.dart';
-import 'package:marketi_app/features/auth/widgets/custom_widgets.dart';
-import 'package:marketi_app/features/auth/widgets/otp_screen.dart';
-import 'package:marketi_app/features/auth/widgets/verify_code.dart';
-import 'package:marketi_app/screens/new_passwoed_view.dart';
+import 'package:marketi_app/features/new_password/new_passwoed_view.dart';
+import 'package:marketi_app/features/verify_code/widgets/verify_code.dart';
 
+import '../../widgets/custom_button.dart';
+import '../../widgets/custom_widgets.dart';
+import '../otp/otp_screen.dart';
 class VerifyCodeByPhone extends StatelessWidget {
   const VerifyCodeByPhone({super.key});
 
